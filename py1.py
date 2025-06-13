@@ -194,9 +194,12 @@
 
 # import os, re, shutil
 # try:
-#     os.chdir('c:\\Users\\yn1010\\Desktop\\ITDefined Data\\python\\python-exercise')
-#     logfile=open(r'c:\\Users\\yn1010\\Desktop\\ITDefined Data\\python\\python-exercise\\log.txt')
+#     # os.chdir('c:\\Users\\yn1010\\Desktop\\ITDefined Data\\python\\python-exercise')
+#     os.chdir('c:\\USERS\\yenaik\\Desktop\\Study\\python-exercise')
+#     # logfile=open(r'c:\\Users\\yn1010\\Desktop\\ITDefined Data\\python\\python-exercise\\log.txt')
+#     logfile=open(r'c:\\USERS\\yenaik\\Desktop\\Study\\python-exercise\\log.txt')
 #     data=logfile.read()
+#     logfile.close()
 #     ipregx=re.compile(r'\b(?:\d{1,3}\.)(?:\d{1,3}\.)(?:\d{1,3}\.)(?:\d{1,3})\b')
 #     ipout=ipregx.findall(data)
 

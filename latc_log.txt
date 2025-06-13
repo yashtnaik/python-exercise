@@ -1,0 +1,13 @@
+2025-06-13 12:13:50,480 - INFO - Init time 1749797030.4805114
+2025-06-13 12:14:48,099 - INFO - Init time 1749797088.0993483
+2025-06-13 12:14:48,103 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2025-06-13 12:14:48,783 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2025-06-13 12:14:48,829 - DEBUG - Latency in milliseconds 729.9904823303223
+2025-06-13 12:16:34,831 - INFO - Init time 1749797194.8312716
+2025-06-13 12:16:34,834 - DEBUG - Starting new HTTPS connection (1): www.facebook.com:443
+2025-06-13 12:16:35,032 - DEBUG - https://www.facebook.com:443 "GET / HTTP/1.1" 403 15381
+2025-06-13 12:16:35,033 - DEBUG - Latency in milliseconds 202.02159881591797 and status code is 403
+2025-06-13 12:17:49,577 - INFO - Init time 1749797269.5775502
+2025-06-13 12:17:49,581 - DEBUG - Starting new HTTPS connection (1): www.facebook.com:443
+2025-06-13 12:17:49,781 - DEBUG - https://www.facebook.com:443 "GET / HTTP/1.1" 403 15381
+2025-06-13 12:17:49,782 - DEBUG - Latency in milliseconds 204.5280933380127 and status code is 403

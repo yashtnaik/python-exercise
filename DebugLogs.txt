@@ -1,0 +1,23 @@
+2025-06-13 12:08:01,997 - DEBUG - start of factoral (5)
+2025-06-13 12:08:01,997 - DEBUG - i is 0 and total is 0
+2025-06-13 12:08:01,997 - DEBUG - i is 1 and total is 0
+2025-06-13 12:08:01,997 - DEBUG - i is 2 and total is 0
+2025-06-13 12:08:01,997 - DEBUG - i is 3 and total is 0
+2025-06-13 12:08:01,998 - DEBUG - i is 4 and total is 0
+2025-06-13 12:08:01,998 - DEBUG - i is 5 and total is 0
+2025-06-13 12:09:32,055 - DEBUG - start of factoral (5)
+2025-06-13 12:09:32,055 - DEBUG - i is 0 and total is 0
+2025-06-13 12:09:32,055 - DEBUG - i is 1 and total is 0
+2025-06-13 12:09:32,055 - DEBUG - i is 2 and total is 0
+2025-06-13 12:09:32,056 - DEBUG - i is 3 and total is 0
+2025-06-13 12:09:32,056 - DEBUG - i is 4 and total is 0
+2025-06-13 12:09:32,056 - DEBUG - i is 5 and total is 0
+2025-06-13 12:09:32,056 - WARNING - Total is 0
+2025-06-13 12:10:02,265 - DEBUG - start of factoral (5)
+2025-06-13 12:10:02,266 - INFO - i is 0 and total is 0
+2025-06-13 12:10:02,266 - INFO - i is 1 and total is 0
+2025-06-13 12:10:02,266 - INFO - i is 2 and total is 0
+2025-06-13 12:10:02,266 - INFO - i is 3 and total is 0
+2025-06-13 12:10:02,266 - INFO - i is 4 and total is 0
+2025-06-13 12:10:02,266 - INFO - i is 5 and total is 0
+2025-06-13 12:10:02,266 - WARNING - Total is 0
