@@ -20,14 +20,14 @@ import requests
 import time
 import logging
 
-logging.basicConfig(filename='latc_log.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='DebugLog.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 timeout=5
 
 def latency_check(url):
     try:
         start=time.time()
-        logging.info('Init time %s' % start)
+        logging.warning('Init time %s' % start)
         request=requests.get(url, timeout=timeout, verify=False)
         latency=(time.time() - start) * 1000
         logging.debug('Latency in milliseconds %s and status code is %s' % (latency, request.status_code))
