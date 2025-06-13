@@ -152,9 +152,18 @@
 # os.chdir('c:\\USERS\\yenaik\\Desktop')
 
 # for filename in os.listdir():
-#     if filename.endswith('.rxt'):
+#     if filename.endswith('.txt'):
 #         print(filename)
 #         os.remove(filename)
+
+# 20250404
+
+# import os
+
+# os.chdir('c:\\path')
+# for logs in os.listdir():
+#     if logs.startswith('20250404'):
+#         os.remove(logs)
 
 # a=[1, 2, 3, 4, 5, 6]
 # b=[7, 8, 9, 10, 11]
@@ -183,14 +192,90 @@
 #     print(symbol * width)
 # box('*', 16, 5)
 
-import os, re, shutil
-try:
-    os.chdir('c:\\USERS\\yenaik\\Desktop\\Study\\python')
-    logfile=open(r'c:\\USERS\\yenaik\\Desktop\\Study\\python\\log.txt')
-    data=logfile.read()
-    ipregx=re.compile(r'\b(?:\d{1,3}\.)(?:\d{1,3}\.)(?:\d{1,3}\.)(?:\d{1,3})\b')
-    ipout=ipregx.findall(data)
+# import os, re, shutil
+# try:
+#     os.chdir('c:\\Users\\yn1010\\Desktop\\ITDefined Data\\python\\python-exercise')
+#     logfile=open(r'c:\\Users\\yn1010\\Desktop\\ITDefined Data\\python\\python-exercise\\log.txt')
+#     data=logfile.read()
+#     ipregx=re.compile(r'\b(?:\d{1,3}\.)(?:\d{1,3}\.)(?:\d{1,3}\.)(?:\d{1,3})\b')
+#     ipout=ipregx.findall(data)
 
-    print(ipout)
-except:
-    print('Invalid data type, file not found')
+#     print(ipout)
+# except:
+#     print('Invalid data type, file not found')
+
+# name=input('what is your name?: ')
+# age=int(input('What is you age?: '))
+
+# if name.lower() == 'alice' and age >=18 :
+#     print(f'Hi {name}, nice to meet you')
+# elif name.lower() == 'alice' and age <18 :
+#     print('You are not the Alice we want, Kiddo')
+# else:
+#     print(f'Ending the conversation with {name}')
+
+# spam = 0
+
+# while spam < 5 :
+#     print('Hi Tejas')
+#     spam += 1
+
+# name=''
+
+# while name.lower() != 'tejas':
+#     print('Type your name here: ')
+#     name=input()
+# else:
+#     print(f'Nice to meet you {name}')
+
+# spam = 0
+
+# while spam < 5:
+#     # print(f'spam value is {spam}')
+#     spam += 1
+#     if spam == 3:
+#         continue
+#     print(f'spam value is {spam}')
+
+# for i in range (0,5):
+#     print(f'My name is Yash for {i}')
+
+# import math, sys 
+
+# nut=int(input("Enter the value to divide 42:  "))
+
+# def divide42by(nut):
+#     try:
+# ``      ans = 42/num
+#         print(ans)
+#     except:
+#         print("error")
+# divide42by()
+
+# cats=int(input('Enter the number of cats you have:  '))
+
+# try: 
+#     if cats >= 4:
+#         print('Thats a lot of cats')
+#     else:
+#         print('That is not that many cats')
+# except ValueError:
+#     print('Invalid input error')
+
+# import random
+
+# ans=random.randint(0,10)
+# guess=int(input('Guess the number between 1 to 10:   '))
+
+# for attempt in range(0,6):
+#     if guess == ans:
+#         print('Guessed correctly')
+#     else:
+#         print('Try again')
+
+# supplies=['tea', 'butter', 'milk', 'bread']
+
+# for i in range(len(supplies)):
+#     print(f'at {i} we have {supplies[i]}')
+
+

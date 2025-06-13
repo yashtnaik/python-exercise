@@ -89,3 +89,12 @@ shutil.rmtree('c:\\Folder')
 eg:
     if len(argument) != 1:
         raise Exception('argument should be a single character')
+
+-----------random----------
+
+import random
+random.randint(0,15)
+
+-------sys-------
+import sys
+sys.exit()           -- will break n exit program from here
